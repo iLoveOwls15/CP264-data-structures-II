@@ -1,0 +1,24 @@
+15:12:55 **** Incremental Build of configuration Debug for project a8 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o myrecord_avl.o "..\\myrecord_avl.c" 
+In file included from ..\myrecord_avl.c:9:0:
+..\myrecord_avl.h:20:3: error: conflicting types for 'AVLDS'
+ } AVLDS;
+   ^~~~~
+..\myrecord_avl.h:13:3: note: previous declaration of 'AVLDS' was here
+ } AVLDS;
+   ^~~~~
+..\myrecord_avl.h:34:2: error: #endif without #if
+ #endif
+  ^~~~~
+..\myrecord_avl.c: In function 'merge_avl':
+..\myrecord_avl.c:24:9: warning: implicit declaration of function 'insert' [-Wimplicit-function-declaration]
+         insert(dest_rootp, name, score);
+         ^~~~~~
+..\myrecord_avl.c: At top level:
+..\myrecord_avl.c:29:1: error: expected identifier or '(' before '{' token
+ {
+ ^
+
+15:12:55 Build Failed. 3 errors, 1 warnings. (took 95ms)
+

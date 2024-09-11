@@ -1,0 +1,7 @@
+20:08:54 **** Incremental Build of configuration Debug for project bdsjadb ****
+Info: Internal Builder is used for build
+gcc -o bdsjadb.exe "a03\\src\\mystring.o" "a03\\src\\mystring_ptest.o" "a03\\src\\myword.o" "a03\\src\\test.o" yo.o 
+gcc: error: a03\src\mystring.o: No such file or directory
+
+20:08:54 Build Finished. 0 errors, 0 warnings. (took 93ms)
+

@@ -1,0 +1,14 @@
+15:12:55 **** Incremental Build of configuration Debug for project a6_copy ****
+Info: Internal Builder is used for build
+gcc -o a6_copy.exe common.o queue.o queue_ptest.o 
+queue_ptest.o: In function `test_enqueue':
+C:\Users\Danny\OneDrive\Desktop\CP264\a6_copy\Debug/../queue_ptest.c:26: undefined reference to `get_type'
+C:\Users\Danny\OneDrive\Desktop\CP264\a6_copy\Debug/../queue_ptest.c:37: undefined reference to `clean_queue'
+queue_ptest.o: In function `test_dequeue':
+C:\Users\Danny\OneDrive\Desktop\CP264\a6_copy\Debug/../queue_ptest.c:49: undefined reference to `get_type'
+queue_ptest.o: In function `main':
+C:\Users\Danny\OneDrive\Desktop\CP264\a6_copy\Debug/../queue_ptest.c:127: undefined reference to `clean_queue'
+collect2.exe: error: ld returned 1 exit status
+
+15:12:55 Build Failed. 4 errors, 0 warnings. (took 141ms)
+

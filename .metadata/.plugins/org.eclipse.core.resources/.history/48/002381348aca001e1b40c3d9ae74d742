@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+int main(){
+/*	int a;
+	int *p; //will print the value at the adress location
+	a=10; //actual int valye
+	p = &a; //address of the int value
+	printf("%d\n",p);
+	printf("%d\n",p+1); //prints address but notice +1 of 296 reads as 300 instead of 297, this is because a integer value is up to 4 bytes long
+	printf("%d\n",*p);
+}
+//int 4 bytes e.g 204 - 207 (0,1,2,3 slots)
+//chat 1 byte
+//flloat 4 bytes
+//can we know address/ operate upon those locations? (YES USE POINTERS)
+//e,g block of 4 bytes a=5 @204
+*/
+
+	int a = 1025;
+	int *p;
+	p = &a;
+
+	printf("%d,%d\n",p,*p);
+	return 0;
+}

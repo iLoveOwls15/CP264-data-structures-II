@@ -1,0 +1,11 @@
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:yessir\!.exe,org.eclipse.launchbar.core.descriptorType.default\:dsa.exe,org.eclipse.launchbar.core.descriptorType.default\:shap2161_l02.exe,org.eclipse.launchbar.core.descriptorType.default\:a1.exe,org.eclipse.launchbar.core.descriptorType.default\:shap2161_l03.exe,org.eclipse.launchbar.core.descriptorType.default\:a3.exe,org.eclipse.launchbar.core.descriptorType.default\:a2.exe,org.eclipse.launchbar.core.descriptorType.default\:shap2161_l01.exe,org.eclipse.launchbar.core.descriptorType.default\:a4.exe,org.eclipse.launchbar.core.descriptorType.default\:pointers_practice.exe,org.eclipse.launchbar.core.descriptorType.default\:a6.exe,org.eclipse.launchbar.core.descriptorType.default\:shap2161_l07.exe,org.eclipse.launchbar.core.descriptorType.default\:ca7.exe,org.eclipse.launchbar.core.descriptorType.default\:shap2161_l08.exe,org.eclipse.launchbar.core.descriptorType.default\:a8.exe,org.eclipse.launchbar.core.descriptorType.default\:a9 Debug,org.eclipse.launchbar.core.descriptorType.default\:shap2161_l09.exe (1),org.eclipse.launchbar.core.descriptorType.default\:shap2161_l05.exe,org.eclipse.launchbar.core.descriptorType.default\:shap2161_l09.exe,org.eclipse.launchbar.core.descriptorType.default\:hello.exe,org.eclipse.launchbar.core.descriptorType.default\:shap2161_l10.exe,org.eclipse.launchbar.core.descriptorType.default\:dude.exe
+eclipse.preferences.version=1
+org.eclipse.launchbar.core.descriptorType.default\:a1.exe/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:a1.exe/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:dsa.exe/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:dsa.exe/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:yessir\!.exe/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:yessir\!.exe/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local

@@ -1,0 +1,10 @@
+14:56:21 **** Incremental Build of configuration Debug for project examples ****
+Info: Internal Builder is used for build
+gcc -o examples.exe "src\\functions.o" "src\\main.o" "src\\yessir!.o" 
+src\yessir!.o: In function `main':
+C:\Users\Danny\OneDrive\Desktop\CP264\examples\Debug/../src/yessir!.c:14: multiple definition of `main'
+src\main.o:C:\Users\Danny\OneDrive\Desktop\CP264\examples\Debug/../src/main.c:21: first defined here
+collect2.exe: error: ld returned 1 exit status
+
+14:56:22 Build Failed. 2 errors, 0 warnings. (took 147ms)
+

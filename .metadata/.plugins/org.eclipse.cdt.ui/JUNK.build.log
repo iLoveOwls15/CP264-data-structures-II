@@ -1,0 +1,84 @@
+15:12:53 **** Incremental Build of configuration Debug for project JUNK ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o heap.o "..\\heap.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o common_queue_stack.o "..\\common_queue_stack.c" 
+..\common_queue_stack.c:19:1: error: unknown type name 'Queue'
+ Queue* createQueue() {
+ ^~~~~
+..\common_queue_stack.c: In function 'createQueue':
+..\common_queue_stack.c:20:2: error: unknown type name 'Queue'
+  Queue *q = (Queue*) malloc(sizeof(Queue));
+  ^~~~~
+..\common_queue_stack.c:20:14: error: 'Queue' undeclared (first use in this function)
+  Queue *q = (Queue*) malloc(sizeof(Queue));
+              ^~~~~
+..\common_queue_stack.c:20:14: note: each undeclared identifier is reported only once for each function it appears in
+..\common_queue_stack.c:20:20: error: expected expression before ')' token
+  Queue *q = (Queue*) malloc(sizeof(Queue));
+                    ^
+..\common_queue_stack.c:21:3: error: request for member 'front' in something not a structure or union
+  q->front = q->rear = NULL;
+   ^~
+..\common_queue_stack.c:21:14: error: request for member 'rear' in something not a structure or union
+  q->front = q->rear = NULL;
+              ^~
+..\common_queue_stack.c:22:3: error: request for member 'size' in something not a structure or union
+  q->size = 0;
+   ^~
+..\common_queue_stack.c: At top level:
+..\common_queue_stack.c:26:14: error: unknown type name 'Queue'
+ void enqueue(Queue *q, char *data) {
+              ^~~~~
+..\common_queue_stack.c:39:15: error: unknown type name 'Queue'
+ char* dequeue(Queue *q) {
+               ^~~~~
+..\common_queue_stack.c:54:1: error: unknown type name 'bool'
+ bool isQueueEmpty(Queue *q) {
+ ^~~~
+..\common_queue_stack.c:54:19: error: unknown type name 'Queue'
+ bool isQueueEmpty(Queue *q) {
+                   ^~~~~
+..\common_queue_stack.c:58:18: error: unknown type name 'Queue'
+ void deleteQueue(Queue *q) {
+                  ^~~~~
+..\common_queue_stack.c:66:1: error: unknown type name 'Stack'
+ Stack* createStack() {
+ ^~~~~
+..\common_queue_stack.c: In function 'createStack':
+..\common_queue_stack.c:67:2: error: unknown type name 'Stack'
+  Stack *s = (Stack*) malloc(sizeof(Stack));
+  ^~~~~
+..\common_queue_stack.c:67:14: error: 'Stack' undeclared (first use in this function)
+  Stack *s = (Stack*) malloc(sizeof(Stack));
+              ^~~~~
+..\common_queue_stack.c:67:20: error: expected expression before ')' token
+  Stack *s = (Stack*) malloc(sizeof(Stack));
+                    ^
+..\common_queue_stack.c:68:3: error: request for member 'top' in something not a structure or union
+  s->top = NULL;
+   ^~
+..\common_queue_stack.c:69:3: error: request for member 'size' in something not a structure or union
+  s->size = 0;
+   ^~
+..\common_queue_stack.c: At top level:
+..\common_queue_stack.c:73:11: error: unknown type name 'Stack'
+ void push(Stack *s, char *data) {
+           ^~~~~
+..\common_queue_stack.c:81:11: error: unknown type name 'Stack'
+ char* pop(Stack *s) {
+           ^~~~~
+..\common_queue_stack.c:93:12: error: unknown type name 'Stack'
+ char* peek(Stack *s) {
+            ^~~~~
+..\common_queue_stack.c:100:1: error: unknown type name 'bool'
+ bool isStackEmpty(Stack *s) {
+ ^~~~
+..\common_queue_stack.c:100:19: error: unknown type name 'Stack'
+ bool isStackEmpty(Stack *s) {
+                   ^~~~~
+..\common_queue_stack.c:104:18: error: unknown type name 'Stack'
+ void deleteStack(Stack *s) {
+                  ^~~~~
+
+15:12:54 Build Failed. 24 errors, 0 warnings. (took 229ms)
+

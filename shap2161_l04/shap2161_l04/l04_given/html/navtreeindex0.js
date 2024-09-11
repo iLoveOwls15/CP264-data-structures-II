@@ -1,0 +1,22 @@
+var NAVTREEINDEX0 =
+{
+"dir_68267d1309a1af8e8297ef4c3efbcdba.htm":[0,0,0],
+"files.htm":[0,0],
+"functions_8h.htm":[0,0,0,0],
+"functions_8h.htm#a02782b5e2cab454eb28f4dcacc1bc93d":[0,0,0,0,1],
+"functions_8h.htm#a2628e6ad05414de7a5c7c2a5f1acf3f2":[0,0,0,0,4],
+"functions_8h.htm#a6f496e494d1971d48ec89f354cfdbbeb":[0,0,0,0,3],
+"functions_8h.htm#abfb8d59967f1ad365537e664df4d57d8":[0,0,0,0,0],
+"functions_8h.htm#ae9d3dc3a07d740ed1f6e5bf8e56c9423":[0,0,0,0,2],
+"functions_8h_source.htm":[0,0,0,0],
+"globals.htm":[0,1,0],
+"globals_func.htm":[0,1,1],
+"index.htm":[],
+"main_8c.htm":[0,0,0,1],
+"main_8c.htm#a0ddf1224851353fc92bfbff6f499fa97":[0,0,0,1,0],
+"pages.htm":[],
+"strings__length_8c.htm":[0,0,0,2],
+"strings__length_8c.htm#a6f496e494d1971d48ec89f354cfdbbeb":[0,0,0,2,0],
+"strings__with__substring_8c.htm":[0,0,0,3],
+"strings__with__substring_8c.htm#a2628e6ad05414de7a5c7c2a5f1acf3f2":[0,0,0,3,0]
+};

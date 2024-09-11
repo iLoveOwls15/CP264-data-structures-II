@@ -1,0 +1,26 @@
+15:12:55 **** Incremental Build of configuration Debug for project dsadasd ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o tree.o "..\\tree.c" 
+..\tree.c:10:8: error: conflicting types for 'new_node'
+ TNODE *new_node(int value) {
+        ^~~~~~~~
+In file included from ..\tree.c:8:0:
+..\tree.h:39:8: note: previous declaration of 'new_node' was here
+ TNODE *new_node(char val);
+        ^~~~~~~~
+..\tree.c: In function 'get_props':
+..\tree.c:25:10: error: 'TPROPS {aka struct tree_props}' has no member named 'count'
+         r.count = 1 + lp.count + rp.count;        // Calculate total number of nodes (root + left sub-tree + right sub-tree)
+          ^
+..\tree.c:25:25: error: 'TPROPS {aka struct tree_props}' has no member named 'count'
+         r.count = 1 + lp.count + rp.count;        // Calculate total number of nodes (root + left sub-tree + right sub-tree)
+                         ^
+..\tree.c:25:36: error: 'TPROPS {aka struct tree_props}' has no member named 'count'
+         r.count = 1 + lp.count + rp.count;        // Calculate total number of nodes (root + left sub-tree + right sub-tree)
+                                    ^
+..\tree.c:26:24: warning: implicit declaration of function '__max' [-Wimplicit-function-declaration]
+         r.height = 1 + __max(lp.height, rp.height);
+                        ^~~~~
+
+15:12:56 Build Failed. 4 errors, 1 warnings. (took 89ms)
+

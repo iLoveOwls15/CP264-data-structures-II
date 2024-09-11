@@ -1,0 +1,40 @@
+/**
+ * -------------------------------------
+ * @file  testing.txt
+ * Lab 3 Test Results File
+ * -------------------------------------
+ * @author name, id, email
+ *
+ * @version 2024-01-25
+ *
+ * -------------------------------------
+ */
+------------------
+Task 1
+
+Test: sum_integers
+
+Enter integers, one per line:
+1
+2
+3
+q
+Sum: 6
+
+------------------
+Task 2
+
+Enter integers, one per line:
+3
+3
+3
+3
+q
+Sum: 12
+
+
+---------------
+Task 3
+
+
+I get a wrong input for this one

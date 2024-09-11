@@ -1,0 +1,4 @@
+int main(){
+	prtinf("hello");
+	return 0;
+}

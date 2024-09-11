@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main(){
+	int a;
+	int *p; //will print the value at the adress location
+	a=10;
+	p = &a;
+	printf("%d\n",p);
+}
+//int 4 bytes e.g 204 - 207 (0,1,2,3 slots)
+//chat 1 byte
+//flloat 4 bytes
+//can we know address/ operate upon those locations? (YES USE POINTERS)
+//e,g block of 4 bytes a=5 @204

@@ -1,0 +1,8 @@
+15:12:56 **** Incremental Build of configuration Debug for project import ****
+Info: Internal Builder is used for build
+gcc -o import.exe "a9\\src\\common_queue_stack.o" "a9\\src\\expression_symbol.o" "a9\\src\\hash.o" "a9\\src\\heap.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmingw32.a(main.o):(.text.startup+0xa0): undefined reference to `WinMain@16'
+collect2.exe: error: ld returned 1 exit status
+
+15:12:56 Build Failed. 1 errors, 0 warnings. (took 138ms)
+

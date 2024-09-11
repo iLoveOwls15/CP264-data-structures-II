@@ -1,0 +1,19 @@
+15:12:54 **** Incremental Build of configuration Debug for project a5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o dllist.o "..\\dllist.c" 
+..\dllist.c: In function 'new_node':
+..\dllist.c:23:15: error: 'value' undeclared (first use in this function)
+  node->data = value;
+               ^~~~~
+..\dllist.c:23:15: note: each undeclared identifier is reported only once for each function it appears in
+..\dllist.c: In function 'dll_clean':
+..\dllist.c:112:2: error: expected declaration or statement at end of input
+  }
+  ^
+At top level:
+..\dllist.c:103:7: warning: 'dll_clean' defined but not used [-Wunused-function]
+  void dll_clean(DLL *dllp) {
+       ^~~~~~~~~
+
+15:12:54 Build Failed. 2 errors, 1 warnings. (took 97ms)
+

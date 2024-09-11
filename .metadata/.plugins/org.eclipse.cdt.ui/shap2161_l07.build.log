@@ -1,0 +1,25 @@
+18:43:09 **** Incremental Build of configuration Debug for project shap2161_l07 ****
+Info: Internal Builder is used for build
+gcc -o shap2161_l07.exe "l07_given\\src\\bst_linked.o" "l07_given\\src\\data.o" "l07_given\\src\\main.o" 
+l07_given\src\main.o: In function `test_bst':
+C:\Users\Danny\OneDrive\Desktop\CP264\shap2161_l07\Debug/../l07_given/src/main.c:33: undefined reference to `bst_initialize'
+C:\Users\Danny\OneDrive\Desktop\CP264\shap2161_l07\Debug/../l07_given/src/main.c:34: undefined reference to `bst_empty'
+C:\Users\Danny\OneDrive\Desktop\CP264\shap2161_l07\Debug/../l07_given/src/main.c:35: undefined reference to `bst_full'
+C:\Users\Danny\OneDrive\Desktop\CP264\shap2161_l07\Debug/../l07_given/src/main.c:36: undefined reference to `bst_count'
+C:\Users\Danny\OneDrive\Desktop\CP264\shap2161_l07\Debug/../l07_given/src/main.c:40: undefined reference to `bst_insert'
+C:\Users\Danny\OneDrive\Desktop\CP264\shap2161_l07\Debug/../l07_given/src/main.c:42: undefined reference to `bst_print'
+C:\Users\Danny\OneDrive\Desktop\CP264\shap2161_l07\Debug/../l07_given/src/main.c:43: undefined reference to `bst_empty'
+C:\Users\Danny\OneDrive\Desktop\CP264\shap2161_l07\Debug/../l07_given/src/main.c:44: undefined reference to `bst_full'
+C:\Users\Danny\OneDrive\Desktop\CP264\shap2161_l07\Debug/../l07_given/src/main.c:45: undefined reference to `bst_count'
+C:\Users\Danny\OneDrive\Desktop\CP264\shap2161_l07\Debug/../l07_given/src/main.c:46: undefined reference to `bst_leaf_count'
+C:\Users\Danny\OneDrive\Desktop\CP264\shap2161_l07\Debug/../l07_given/src/main.c:47: undefined reference to `bst_balanced'
+C:\Users\Danny\OneDrive\Desktop\CP264\shap2161_l07\Debug/../l07_given/src/main.c:50: undefined reference to `bst_inorder'
+C:\Users\Danny\OneDrive\Desktop\CP264\shap2161_l07\Debug/../l07_given/src/main.c:52: undefined reference to `bst_count'
+C:\Users\Danny\OneDrive\Desktop\CP264\shap2161_l07\Debug/../l07_given/src/main.c:58: undefined reference to `bst_remove'
+C:\Users\Danny\OneDrive\Desktop\CP264\shap2161_l07\Debug/../l07_given/src/main.c:61: undefined reference to `bst_inorder'
+C:\Users\Danny\OneDrive\Desktop\CP264\shap2161_l07\Debug/../l07_given/src/main.c:63: undefined reference to `bst_count'
+C:\Users\Danny\OneDrive\Desktop\CP264\shap2161_l07\Debug/../l07_given/src/main.c:69: undefined reference to `bst_free'
+collect2.exe: error: ld returned 1 exit status
+
+18:43:09 Build Failed. 17 errors, 0 warnings. (took 138ms)
+

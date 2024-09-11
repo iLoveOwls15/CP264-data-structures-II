@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ImportExportAction">
+		<item key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID" value="org.eclipse.ui.wizards.import.ZipFile"/>
+		<item key="ImportExportPage.STORE_SELECTED_EXPORT_WIZARD_ID" value="org.eclipse.ui.wizards.export.ZipFile"/>
+		<list key="ImportExportPage.STORE_EXPANDED_IMPORT_CATEGORIES">
+			<item value="org.eclipse.ui.Basic"/>
+		</list>
+		<list key="ImportExportPage.STORE_EXPANDED_EXPORT_CATEGORIES">
+			<item value="org.eclipse.ui.Basic"/>
+			<item value="org.eclipse.cdt.ui.exportWizardCategory"/>
+		</list>
+	</section>
+	<section name="ZipFileImportWizard">
+		<item key="WizardZipFileResourceImportPage1.STORE_OVERWRITE_EXISTING_RESOURCES_ID" value="false"/>
+		<list key="WizardZipFileResourceImportPage1.STORE_SOURCE_NAMES_ID">
+			<item value="C:\Users\Danny\Downloads\a9.zip"/>
+			<item value="C:\Users\Danny\Downloads\l09_given.zip"/>
+			<item value="C:\Users\Danny\Downloads\l08_given.zip"/>
+			<item value="C:\Users\Danny\Downloads\l07_given.zip"/>
+			<item value="C:\Users\Danny\Downloads\a03_4.zip"/>
+			<item value="C:\Users\Danny\Downloads\l02_given.zip"/>
+			<item value="C:\Users\Danny\Downloads\l01_given.zip"/>
+		</list>
+	</section>
+	<section name="ZipFileExportWizard">
+		<item key="WizardZipFileResourceExportPage1.STORE_CREATE_STRUCTURE_ID" value="true"/>
+		<item key="WizardZipFileResourceExportPage1.STORE_COMPRESS_CONTENTS_ID" value="true"/>
+		<list key="WizardZipFileResourceExportPage1.STORE_DESTINATION_NAMES_ID">
+			<item value="C:\Users\Danny\Downloads\shap2161_l10.zip"/>
+			<item value="C:\Users\Danny\Downloads\a9.zip"/>
+			<item value="C:\Users\Danny\Downloads\shap2161_l09.zip"/>
+			<item value="C:\Users\Danny\Downloads\a8.zip"/>
+			<item value="C:\Users\Danny\OneDrive\Desktop\a8.zip"/>
+			<item value="C:\Users\Danny\Downloads\shap2161_a8.zip"/>
+			<item value="C:\Users\Danny\Downloads\shap2161_l08.zip"/>
+			<item value="C:\Users\Danny\Downloads\a7.zip"/>
+			<item value="C:\Users\Danny\Downloads\a6.zip"/>
+			<item value="C:\Users\Danny\Downloads\a3.zip"/>
+			<item value="C:\Users\Danny\Downloads\shap2161_l03.zip"/>
+			<item value="C:\Users\Danny\Downloads\shap2161_a2.zip"/>
+			<item value="C:\Users\Danny\Downloads\shap2161_l02.zip"/>
+			<item value="C:\Users\Danny\Downloads\a1.zip"/>
+			<item value="C:\Users\Danny\Downloads\dude.zip"/>
+			<item value="C:\Users\Danny\Downloads\dsads.zip"/>
+			<item value="C:\Users\Danny\Downloads\shap2161_l01.zip"/>
+		</list>
+	</section>
+</section>

@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main(){
+	int a;
+	int *p;
+	a=10;
+	p = &a; //&a = address of a
+	*p = 12; //dereferncing
+	printf("%d\n",p); //address location
+	printf("%d\n",*p); //value at that particular adress
+	printf("%d\n",&a);
+	printf("%d\n",a);
+}
+//int 4 bytes e.g 204 - 207 (0,1,2,3 slots)
+//chat 1 byte
+//flloat 4 bytes
+//can we know address/ operate upon those locations? (YES USE POINTERS
+//e,g block of 4 bytes a=5 @204
