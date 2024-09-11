@@ -1,4 +1,0 @@
-int void(){
-	prtinf("hello");
-	return 0;
-}
